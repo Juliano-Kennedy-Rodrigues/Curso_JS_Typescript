@@ -11,9 +11,20 @@ const confirma = confirm("Quer mesmo fechar?");
 alert(confirma);
 */
 
-const num1 = prompt("Digite um número");
-const num2 = prompt("Digite um número");
+/*
+let num1 = prompt("Digite um número");
+let num2 = prompt("Digite um número");
 
 const soma = Number(num1) + Number(num2);
 alert(soma);
 alert(typeof soma);
+*/
+
+//exercício com variável 
+let varA = 'A';
+let varB = 'B';
+let varC = 'C';
+
+[varA, varB, varC] = [varB, varC, varA];
+
+console.log(varA, varB, varC);
