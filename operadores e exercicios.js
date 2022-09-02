@@ -1,10 +1,19 @@
 /* Operadores Aritiméticos
-** potenciação ----- % resto da divisão
-Ordem: () --> ** --> * e / e % --> + e - 
-+= ou *= é tipo uma var mais um valor ou vezes um valor
-*/
-
-//para traduzir string para número --> parseInt (inteiro), parseFloat (decimal)
+para traduzir string para número --> parseInt (inteiro), parseFloat (decimal)
 const num1 = 2;
 const num2 = Number('1.5');
 console.log(num1+num2);
+*/
+
+/* FUNÇÕES NO NAVEGADOR
+alert('Olá mundo!');
+const confirma = confirm("Quer mesmo fechar?");
+alert(confirma);
+*/
+
+const num1 = prompt("Digite um número");
+const num2 = prompt("Digite um número");
+
+const soma = Number(num1) + Number(num2);
+alert(soma);
+alert(typeof soma);
