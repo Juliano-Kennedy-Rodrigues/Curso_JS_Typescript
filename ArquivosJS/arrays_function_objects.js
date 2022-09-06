@@ -45,7 +45,7 @@ const pessoa1 = {
 }
 
 console.log(pessoa1.nome, pessoa1.sobrenome, pessoa1.idade);*/
-/*
+
 function criarPessoa(nome, sobremome, idade){
     return{
         nome, sobremome,idade
@@ -57,8 +57,8 @@ const pessoa01 = criarPessoa('Juliano', 'Rodrigues', 18);
 console.log(pessoa01);
 const pessoa02 = criarPessoa('Jonas', 'Rodrigues', 29);
 console.log(pessoa02);
-*/
 
+/*
 const pessoa ={
     nome: 'Juliano',
     sobrenome: "Rodrigues",
@@ -77,3 +77,4 @@ const pessoa ={
 
 pessoa.fala();
 pessoa.incrementaIdade();
+*/
