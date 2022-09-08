@@ -17,7 +17,7 @@ function Escopo(){
         
         console.log(imc);
 
-        if(peso.value != '' ||  altura.value != ''){
+        if(peso.value != '' &&  altura.value != ''){
             div.innerHTML = "";
             if(imc < 18.5){
                 div.innerHTML = `Seu IMC é de ${imc.toFixed(2)}. (Abaixo do peso) `;
