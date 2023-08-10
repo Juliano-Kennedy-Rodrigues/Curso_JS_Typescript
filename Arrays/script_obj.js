@@ -1,4 +1,4 @@
-//data: 08/08/2023 aula 50 atribuição via desestruturação - objetos
+//data: 08/08/2023 aula 51 atribuição via desestruturação - objetos
 
 const pessoa = {
     nome: 'Luiz',
